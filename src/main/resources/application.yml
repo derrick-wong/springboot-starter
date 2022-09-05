@@ -1,0 +1,9 @@
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+  endpoints:
+    web:
+      base-path: /_system
+      exposure:
+        include: "health,info,env"
